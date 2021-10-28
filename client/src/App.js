@@ -1,21 +1,13 @@
-import React, { useEffect } from 'react';
+//Imports from libraries
+import React from 'react';
 
-import { useDispatch } from 'react-redux';
+//Page imports
+import HomePage from './pages/homePage/homePage.js'
 
-import TestPage from './pages/testPage/testPage.js'
-import { getTestData } from './actions/testActions.js'
-
+//Default function
 const App = () => {
-    const dispatch = useDispatch();
-
-    useEffect(
-        () => {
-            dispatch(getTestData());
-        }, [dispatch]
-    );
-
     return (
-        <TestPage />
+        <HomePage />
     );
 }
 

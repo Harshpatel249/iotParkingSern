@@ -1,5 +1,3 @@
-// sample component styles
-
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
@@ -20,17 +18,5 @@ export default makeStyles((theme) => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '10px 50px',
-  },
-  form: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-  },
-  fileInput: {
-    width: '97%',
-    margin: '10px 0',
-  },
-  buttonSubmit: {
-    marginBottom: 10,
   },
 }));
