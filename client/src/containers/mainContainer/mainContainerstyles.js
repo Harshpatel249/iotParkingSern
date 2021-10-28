@@ -1,12 +1,13 @@
 import { makeStyles } from '@material-ui/core/styles';
-import { deepPurple } from '@material-ui/core/colors';
 
 
 export default makeStyles((theme) => ({
     //container styles
     conTainer: {
-      borderRadius: 15,
-      backgroundColor: deepPurple[500],
+      borderRadius: 5,
+      backgroundColor: '#E1578A',
       padding: '10px 50px',
     },
   }));
+
+  //#A9333A
