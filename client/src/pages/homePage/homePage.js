@@ -14,8 +14,8 @@ const HomePage = () => {
     const classes = useStyles();
 
     return(
-        <div>
-        <AppBar className = {classes.appBar} position = "static" color = "inherit">
+        <div className = {classes.div1}>
+        <AppBar className = {classes.appBar} position = "static">
             <Typography variant = "h4" align = "center">Welcome to ParkingSern!</Typography>
         </AppBar>
         <MainContainer />

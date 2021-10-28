@@ -6,13 +6,13 @@ import { TextField, Button, Paper, Typography, CircularProgress, Grid } from '@m
 import useStyles from './parkinSpacestyles.js';
 
 //Default function
-const ParkinSpace = () =>{
+const ParkinSpace = (props) =>{
     const classes = useStyles();
   
     return(
         <>
-        <Paper className = {classes.paper}>
-            <Typography variant = 'body1'>Free Space!</Typography>
+        <Paper className = {classes.paper} style = {{backgroundColor: props.Color}}>
+            <Typography variant = 'body1'>Parking Space {props.Num}</Typography>
         </Paper>
         </>
         
