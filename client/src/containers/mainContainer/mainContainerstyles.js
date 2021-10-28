@@ -6,7 +6,11 @@ export default makeStyles((theme) => ({
     conTainer: {
       borderRadius: 5,
       backgroundColor: '#E1578A',
-      padding: '10px 50px',
+      padding: theme.spacing(1),
+    },
+    container2: {
+      display: 'flex',
+      justifyContent: 'center',
     },
   }));
 

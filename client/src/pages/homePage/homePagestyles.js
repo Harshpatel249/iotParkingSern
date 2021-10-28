@@ -15,4 +15,7 @@ export default makeStyles((theme) => ({
       alignItems: 'center',
       padding: '10px 50px',
     },
+    div1: {
+      padding: '10px 350px',
+    },
   }));
