@@ -66,8 +66,8 @@ const MainContainer = () =>{
             <ParkinSpace Num = '4' Color = {allValues[3]==='0'?'#A9333A':'#77D970' }/>
         </Container>
         <Container className={classes.container2}>
-            <ParkinSpace Num = '5' Color = {parseInt(allValues[4], 10 )<100?'#A9333A':'#77D970' }/>
-            <ParkinSpace Num = '6' Color = {parseInt(allValues[5], 10 )<100?'#A9333A':'#77D970' }/>
+            <ParkinSpace Num = '5' Color = {parseInt(allValues[4], 10 )<30?'#A9333A':'#77D970' }/>
+            <ParkinSpace Num = '6' Color = {parseInt(allValues[5], 10 )<30?'#A9333A':'#77D970' }/>
         </Container>
         <Container className={classes.container2} style={{paddingTop: 40, paddingBottom: 20}}>
             <Typography variant = 'body1' style={{fontWeight: 700}}>Enter Here</Typography>
